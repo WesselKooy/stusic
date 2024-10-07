@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "stusic"
+version = "0.1.0"
+description = "Study music"
+authors = ["TimWes"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+moviepy = "^1.0.3"
+pillow = "9.0.1"
+torch = "^2.4.1"
+opencv-python = "^4.10.0.84"
+numpy = "^2.1.2"
+timm = "^1.0.9"
+torchvision = "^0.19.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
